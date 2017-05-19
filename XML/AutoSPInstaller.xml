@@ -1,0 +1,93 @@
+<ServiceAccounts> 
+  <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>Farm</LastName> 
+	<UserName>SP_Farm</UserName> 
+	<Password></Password>
+	<Description>The server farm account is used to perform the following tasks: - Configure and manage the server farm. - Act as the application pool identity for the SharePoint Central Administration Web site. - Run the Microsoft SharePoint Foundation Workflow Timer Service </Description>
+  </User>
+  <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>Admin</LastName> 
+	<UserName>SP_Admin</UserName> 
+	<Password></Password>
+	<Description>The server farm account is used to perform the following tasks: - Setup -SharePoint Products Configuration Wizard </Description>
+  </User> 
+    <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>PortalAppPool</LastName> 
+	<UserName>SP_PortalAppPool</UserName> 
+	<Password></Password>
+	<Description>The Pool account is used to run the Web Application Pools</Description>
+  </User> 
+    <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>Services</LastName> 
+	<UserName>SP_Services</UserName> 
+	<Password></Password>
+	<Description>The Services Account is used to run the Service Application Pool</Description>
+  </User> 
+    <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>SearchContent</LastName> 
+	<UserName>SP_SearchContent</UserName> 
+	<Password></Password>
+	<Description>The Default Content Access Account for the Search Service Application </Description>
+  </User> 
+    <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>SearchService</LastName> 
+	<UserName>SP_SearchService</UserName> 
+	<Password></Password>
+	<Description>Service Account to run the SharePoint Search “Windows Service” </Description>
+  </User> 
+   <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>ProfilesAppPool</LastName> 
+	<UserName>SP_ProfilesAppPool</UserName> 
+	<Password></Password>
+	<Description>Used for the My Sites Web Application </Description>
+  </User>
+    <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>ProfileSync</LastName> 
+	<UserName>SP_ProfileSync</UserName> 
+	<Password></Password>
+	<Description>The User Profile Synchronization Account </Description>
+  </User> 
+  <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>CacheSuperUser</LastName> 
+	<UserName>SP_CacheSuperUser</UserName> 
+	<Password></Password>
+	<Description>Cache Account</Description>
+  </User> 
+  <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>CacheSuperReader</LastName> 
+	<UserName>SP_CacheSuperReader</UserName> 
+	<Password></Password>
+	<Description>Cache Account</Description>
+  </User> 
+  <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>ExcelUser</LastName> 
+	<UserName>SP_ExcelUser</UserName> 
+	<Password></Password>
+	<Description>Used for Excel Services</Description>
+  </User> 
+  <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>VisioUser</LastName> 
+	<UserName>SP_VisioUser</UserName> 
+	<Password></Password>
+	<Description>Used for Visio Services</Description>
+  </User> 
+  <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>PerfPointUser</LastName> 
+	<UserName>SP_PerfPointUser</UserName> 
+	<Password></Password>
+	<Description>Used for Performance Point</Description>
+  </User> 
+</ServiceAccounts>

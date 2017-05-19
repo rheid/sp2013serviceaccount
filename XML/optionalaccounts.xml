@@ -1,0 +1,44 @@
+<ServiceAccounts> 
+  <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>Super User</LastName> 
+	<UserName>SP_Superuser</UserName> 
+	<Password></Password>
+	<Description>Cache Account </Description>
+  </User>
+  <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>Super Reader</LastName> 
+	<UserName>SP_Superreader</UserName> 
+	<Password></Password>
+	<Description>Cache Account </Description>
+  </User>
+    <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>Excel</LastName> 
+	<UserName>SP_Excel</UserName> 
+	<Password></Password>
+	<Description>Excel services unattended account.</Description>
+  </User>
+      <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>PerformancePoint</LastName> 
+	<UserName>SP_Performancepoint</UserName> 
+	<Password></Password>
+	<Description>PerformancePoint Unattended account</Description>
+  </User>
+  <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>Acces</LastName> 
+	<UserName>SP_Acces</UserName> 
+	<Password></Password>
+	<Description>Access Services. Used to create all Access databases in SQL and the service account running the service app pool for the Access Service Application</Description>
+  </User>
+   <User> 
+    <FirstName>SharePoint</FirstName> 
+	<LastName>Viso</LastName> 
+	<UserName>SP_Visio</UserName> 
+	<Password></Password>
+	<Description>Visio Services Unnatended Account</Description>
+  </User>
+</ServiceAccounts>

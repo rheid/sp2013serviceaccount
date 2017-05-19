@@ -1,0 +1,9 @@
+<ServiceAccounts> 
+    <User> 
+    <FirstName>SQL</FirstName> 
+	<LastName>ADMIN</LastName> 
+	<UserName>SQL_Admin</UserName> 
+	<Password></Password>
+	<Description>The SQL Server service account is used to run SQL Server. It is the service account for the following SQL Server services: MSSQLSERVER SQLSERVERAGENT. SQL Admin on the SQL Server</Description>
+	</User> 
+</ServiceAccounts>
